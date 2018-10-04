@@ -16,4 +16,4 @@ class ANIMAL(models.Model):
     nom_commun = models.CharField(max_length=100,unique=True)
     classe = models.ForeignKey(CLASSE,on_delete=models.CASCADE)
     ordre = models.ForeignKey(ORDRE,on_delete=models.CASCADE)
-    famille = models.ForeignKey(FAMILLE,on_delete=models.CASCADE))
+    famille = models.ForeignKey(FAMILLE,on_delete=models.CASCADE)
